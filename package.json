@@ -1,0 +1,23 @@
+{
+  "name": "tmad-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for TMAD token holders tracking",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": ["telegram", "bot", "tmad", "ton", "blockchain", "holders"],
+  "author": "TMAD Team",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.6.2",
+    "cron": "^3.1.6"
+  }
+}
